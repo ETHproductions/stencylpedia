@@ -135,6 +135,13 @@ To create a new extension, it's easiest to copy an existing one. We've created t
   version=1.0
   compatibility=all
   ```
+ 
+ - `name` is the name of the extension, as it will appear in **Settings > Extensions**.
+ - `description` is a brief description of the extension. Appears under the extension name in **Settings > Extensions**.
+ - `author` is the name or Stencyl username of the extension's author.
+ - `website` is the page users will be directed to when they right-click an extension block and choose **View Help**. Be sure to link to a page with documentation about the extension.
+ - `version` is the current version number of the extension.
+ - `compatibility` controls the publishing platforms for which the extension will compile. The current list of options is: **all**, **flash**, **desktop**, **mobile**, **ios**, **android**. Using more than one of these (e.g. **flash and ios**) is not currently supported.
 
 3. Replace **icon.png** with your own 32 x 32 icon.
 
