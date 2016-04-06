@@ -1,5 +1,108 @@
 ### Changelog ###
 
+April 02, 2016
+
+ - (b9073) Fix timed events running when actors are recycled
+
+March 31, 2016
+
+ - (b9072) Fix: Slight jitter when scrolling (camera centre)
+ - (b9072) Fix: Exiting fullscreen reverts to 1x scale
+ 
+March 29, 2016
+
+ - (b9071) Fix: Inconsistent naming of "always" event
+ - (b9070) Add support for a custom block font
+
+March 28, 2016
+
+ - (b9069) Fix: error when right-clicking on code mode attributes
+ - (b9068) Fix: "Find in Behaviors" highlighting doesn't always work
+
+March 27, 2016
+
+ - (b9067) Fix: "Find in Behaviors" error in code mode behaviors
+ - (b9066) Fix: events pane highlighting is never cleared
+ - (b9064) Use escape key to clear block highlighting
+
+March 22, 2016
+
+ - (b9062) Fix: "has value" block returns true for empty text attribute
+ - (b9060) Fix: block context detection (static Script context)
+
+March 17, 2016
+
+ - (b9057) Add blocks to access collision groups for individual shapes, and get the last created shape.
+ - (b9056) Make attribute tween block accept only numbers via dropdown
+
+March 16, 2016
+
+ - (b9052) Fix: "clear value" and "has value" blocks for primitives
+ - (b9050) Clarify limitations of "Auto-scale collision bounds"
+ - (b9049) Fix: Error when increasing box collision values beyond bounds
+
+March 15, 2016
+
+ - (b9048) Fix: missing spaces after parenthesis in two blocks
+ - (b9045) Fix: Bitmap font properties don't get saved
+
+March 14, 2016
+
+ - (b9043) Don't register collisions between regions and tiles.
+ - (b9042) Fix: multiple error dialogs shown in case of compilation errors; external output out of order
+ - (b9041) Fix: instructions and verification of frame and tileset import dialog
+ - (b9040) Fix: "random float between _ and _" block
+ - (b9039) Fix: After duplicating an open scene, the original has to be refreshed before further changes are saved.
+ - (b9038) Fix: Remove column tool might delete last column.
+
+March 13, 2016
+
+ - (b9037) Fix: Allow runlengths of more than 32,000 of the same tile in a scene.
+ - (b9036) Fix: Actors don't stay put on tile layers that parallax.
+
+March 12, 2016
+
+ - (b9034) Accurately portray gradient bg's in Scene Designer.
+ - (b9033) Fix: Can't edit "Rect Up" collision shape.
+ - (b9032) Increase opacity of tileset collision shape overlay.
+ - (b9031) Default tile collision shapes are wrong.
+
+March 09, 2016
+
+ - (b9028) add "random float between" block
+ - (b9027) add "Cut" option to block context menu
+ - (b9025) add "layer with <ID|name> exists" block
+ - (b9023) add "layer name of <actor>" block
+ - (b9022) add "null" block
+ - (b9021) Fix: "language" block returns text
+ - (b9019) add "empty text" and "space" blocks
+ - (b9018) Fix: text fields accept animations
+ - (b9017) Fix: hide deprecated blocks from block picker
+
+March 08, 2016
+
+ - (b9014) Fix: "as Number" block doesn't work on CPP targets in some cases
+ - (b9013) Don't use escape key to exit fullscreen in desktop games
+ - (b9012) Fix: importing sounds from menu File->Import Resource...
+ - (b9011) Fix: import OGG file by drag and drop
+ - (b9010) Fix: exception if mime type cannot be determined
+
+March 07, 2016
+
+ - (b9008) Fix: engine extension blocks don't show up after enabling
+
+March 06, 2016
+
+ - (b9006) Fixed the error when Stencyl attempts to use 3x graphics when only 4x is enabled.
+
+March 06, 2016
+
+ - (b9007) Updated Admob iOS SDK to v7.7.0.
+
+March 05, 2016
+
+ - (b9004) Fix error when dragging blocks.
+
 February 08, 2016
 
  - (b9000) Fix: making changes in "Settings" reverts name to previous save
@@ -66,9 +169,6 @@ January 22, 2016
 January 21, 2016
 
  - (b8918-b8931) Update palette; Improve block formatting
- - 
-January 21, 2016
-
  - (b8916) New "language" block
  - (b8914) Add "exit game" block to block picker
  - (b8913) Better block picker header for memory management
